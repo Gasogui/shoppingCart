@@ -1,4 +1,4 @@
-//srs/data/data.js
+// data.js
 import Image from 'react-bootstrap/Image';
 
 //-- inpor img salad --
