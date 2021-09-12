@@ -5,7 +5,7 @@ import { Link } from 'react-scroll'; // react-scroll is a library for scrolling 
 import SmallScreensNavbar from './SmallScreensNavbar';
 import { useWindowWidthAndHeight } from './CustomHooks';
 import '../../styles/layout/Header.css';
-import LogoBaru from '../../assets/img/logo/logo_Baru_Laptop.jpg';
+
 
 const Header = () => {
   // use our custom hook to get the the window size
