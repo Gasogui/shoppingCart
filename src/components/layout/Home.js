@@ -5,6 +5,7 @@ import '../../styles/layout/Home.css';
 const Home = () => {
     return (
         <section id="Home">
+
             Home
         </section>
     )

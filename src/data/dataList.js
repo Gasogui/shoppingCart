@@ -1,5 +1,5 @@
 // data.js
-import Image from 'react-bootstrap/Image';
+//import Image from 'react-bootstrap/Image';
 
 //-- inpor img salad --
 import SMexicana from '../assets/img/salad/salad-mexicana.jpg';
@@ -11,7 +11,7 @@ import SSinuana from '../assets/img/salad/salad-sinuana.jpg';
 
 //-- import img bowls --
 import BMexicano from '../assets/img/bowls/bowl_mexicano.png';
-import BBaru from '../assets/img/bowls/bowl_baru.jpgg';
+import BBaru from '../assets/img/bowls/bowl_baru.jpg';
 import BNikkei from '../assets/img/bowls/bowl_nikkei.jpg';
 import BHindu from '../assets/img/bowls/bowl_hindu.jpg';
 import BToscano from '../assets/img/bowls/bowl_toscano.jpg';
@@ -42,7 +42,7 @@ const data = {
             price: 16000,
             amount: 0,
             category: 'Ensaladas',
-            imgPath: <Image src={SMexicana} />
+            imgPath: SMexicana,            
         },
         {
             id: '2',
@@ -52,7 +52,7 @@ const data = {
             price: 16000,
             amount: 0,
             category: 'Ensaladas',
-            imgPath: <Image src={SAtum} />
+            imgPath: SAtum,
         },
         {
             id: '3',
@@ -62,7 +62,7 @@ const data = {
             price: 17000,
             amount: 0,
             category: 'Ensaladas',
-            imgPath: <Image src={SBaru} />
+            imgPath: SBaru,
         },
         {
             id: '4',
@@ -72,7 +72,7 @@ const data = {
             price: 19000,
             amount: 0,
             category: 'Ensaladas',
-            imgPath: <Image src={SMediterranea} />
+            imgPath: SMediterranea,
         },
         {
             id: '5',
@@ -82,7 +82,7 @@ const data = {
             price: 17000,
             amount: 0,
             category: 'Ensaladas',
-            imgPath: <Image src={SGriega} />
+            imgPath: SGriega,
         },
         {
             id: '6',
@@ -92,7 +92,7 @@ const data = {
             price: 17000,
             amount: 0,
             category: 'Ensaladas',
-            imgPath: <Image src={SSinuana} />
+            imgPath: SSinuana,
         },
         {
             id: '7',
@@ -102,7 +102,7 @@ const data = {
             price: 17000,
             amount: 0,
             category: 'Bowls',
-            imgPath: <Image src={BMexicano} />
+            imgPath: BMexicano,
         },
         {
             id: '8',
@@ -112,7 +112,7 @@ const data = {
             price: 17000,
             amount: 0,
             category: 'Bowls',
-            imgPath: <Image src={BBaru} />
+            imgPath: BBaru,
         },
         {
             id: '9',
@@ -122,7 +122,7 @@ const data = {
             price: 17000,
             amount: 0,
             category: 'Bowls',
-            imgPath: <Image src={BNikkei} />
+            imgPath: BNikkei,
         },
         {
             id: '10',
@@ -132,7 +132,7 @@ const data = {
             price: 17000,
             amount: 0,
             category: 'Bowls',
-            imgPath: <Image src={BHindu} />
+            imgPath: BHindu,
         },
         {
             id: '11',
@@ -142,7 +142,7 @@ const data = {
             price: 14000,
             amount: 0,
             category: 'Bowls',
-            imgPath: <Image src={BToscano} />
+            imgPath: BToscano,
         },
         {
             id: '12',
@@ -152,7 +152,7 @@ const data = {
             price: 18000,
             amount: 0,
             category: 'Wraps',
-            imgPath: <Image src={WBaru} />
+            imgPath: WBaru,
         },
         {
             id: '13',
@@ -162,7 +162,7 @@ const data = {
             price: 17000,
             amount: 0,
             category: 'Wraps',
-            imgPath: <Image src={WTresJamones} />
+            imgPath: WTresJamones,
         },
         {
             id: '14',
@@ -172,7 +172,7 @@ const data = {
             price: 17000,
             amount: 0,
             category: 'Wraps',
-            imgPath: <Image src={WPolloGrillado} />
+            imgPath: WPolloGrillado,
         },
         {
             id: '15',
@@ -182,7 +182,7 @@ const data = {
             price: 17000,
             amount: 0,
             category: 'Wraps',
-            imgPath: <Image src={WLomoCerdoAsado} />
+            imgPath: WLomoCerdoAsado,
         },
         {
             id: '16',
@@ -192,7 +192,7 @@ const data = {
             price: 15000,
             amount: 0,
             category: 'Wraps',
-            imgPath: <Image src={WVegano} />
+            imgPath: WVegano,
         },
         {
             id: '17',
@@ -202,7 +202,7 @@ const data = {
             price: 17000,
             amount: 0,
             category: 'Wraps',
-            imgPath: <Image src={WBurrito} />
+            imgPath: WBurrito,
         },
         {
             id: '18',
@@ -212,7 +212,7 @@ const data = {
             price: 19000,
             amount: 0,
             category: 'Pizzas',
-            imgPath: <Image src={PBaru} />
+            imgPath: PBaru,
         },
         {
             id: '19',
@@ -222,17 +222,17 @@ const data = {
             price: 18000,
             amount: 0,
             category: 'Pizzas',
-            imgPath: <Image src={PMediterranea} />
+            imgPath: PMediterranea,
         },
         {
             id: '20',
             name: 'Napolitana contemporánea',
             longName: 'Pizza napolitana contemporánea',
-            ingredients: '',
+            ingredients: 'Queso mozzarella bajo en grasa, champiñón portobello relleno, albahaca, brotes orgánicos y pesto y salsa napolitana, tomates cherry.',
             price: 0,
             amount: 0,
             category: 'Pizzas',
-            imgPath: <Image src={PNapalotina} />
+            imgPath: PNapalotina,
         },
         {
             id: '20',
@@ -242,7 +242,7 @@ const data = {
             price: 16000,
             amount: 0,
             category: 'Pizzas',
-            imgPath: <Image src={PHwaiana} />
+            imgPath: PHwaiana,
         },
         {
             id: '20',
@@ -252,7 +252,7 @@ const data = {
             price: 27000,
             amount: 0,
             category: 'Pizzas',
-            imgPath: <Image src={PBurrata} />
+            imgPath: PBurrata,
         },
     ]
 }

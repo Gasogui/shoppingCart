@@ -1,0 +1,31 @@
+/* -- Card.css -- */
+.product {
+  padding-top: 9px;
+  padding-bottom: 9px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.product-image {
+  width: 155px;
+  height: 155px;
+  background-color: #e5e5e5;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.product-info {
+  width: 87%;
+  height: 155px;
+}
+
+.product-info-down {
+  display: flex;
+  justify-content: space-between;
+}

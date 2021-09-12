@@ -28,9 +28,16 @@ header {
   color: whitesmoke;
 }
 
+.image-logo {
+  width: 130px;
+  height: 130px;
+}
+
 section {
-  height: 100vh;
-  color: rgb(5, 5, 5);
+  padding-left: 1rem;
+  padding-right: 1rem;
+  /*  height: 100vh;
+  color: rgb(5, 5, 5); */
 }
 
 nav {
@@ -49,7 +56,7 @@ nav {
   outline: none;
   border: none;
   background-color: rgb(134, 125, 125);
-  color: whitesmoke;
+  color: rgb(2, 2, 2);
 }
 .addTransiton {
   transform: translateX(170px);
@@ -80,7 +87,7 @@ nav {
 
 .nav-big-link {
   cursor: pointer;
-  color: white;
+  color: rgb(5, 5, 5);
   text-decoration: none !important;
 }
 
