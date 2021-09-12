@@ -5,7 +5,8 @@ import '../../styles/layout/Footer.css';
 const Footer = () => {
   return (
     <footer id="Footer">
-      Footer
+
+
     </footer>
   )
 }
